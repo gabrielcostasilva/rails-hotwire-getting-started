@@ -102,8 +102,16 @@ GEM
     erubi (1.13.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    hotwire-rails (0.1.3)
+      rails (>= 6.0.0)
+      stimulus-rails
+      turbo-rails
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
+    importmap-rails (2.0.3)
+      actionpack (>= 6.0.0)
+      activesupport (>= 6.0.0)
+      railties (>= 6.0.0)
     io-console (0.7.2)
     irb (1.14.1)
       rdoc (>= 4.0.0)
@@ -258,9 +266,14 @@ GEM
     sqlite3 (2.1.1-x86_64-darwin)
     sqlite3 (2.1.1-x86_64-linux-gnu)
     sqlite3 (2.1.1-x86_64-linux-musl)
+    stimulus-rails (1.3.4)
+      railties (>= 6.0.0)
     stringio (3.1.1)
     thor (1.3.2)
     timeout (0.4.1)
+    turbo-rails (2.0.11)
+      actionpack (>= 6.0.0)
+      railties (>= 6.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.6.0)
@@ -300,6 +313,8 @@ DEPENDENCIES
   brakeman
   capybara
   debug
+  hotwire-rails (~> 0.1.3)
+  importmap-rails (~> 2.0)
   jbuilder
   puma (>= 5.0)
   rails (~> 7.2.1)
